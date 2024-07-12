@@ -67,12 +67,12 @@ import Title from './Title.vue';
         </div>
       </div>
       <div
-        class="h-[400px] md:h-[500px] lg:h-[650px] overflow-hidden rounded-tr-[36px] rounded-bl-[36px] lg:w-5/6 lg:justify-self-end order-1 lg:order-2 pt-2 lg:pt-0"
+        class="w-full h-[400px] md:h-[500px] lg:h-[650px] overflow-hidden rounded-tr-[36px] rounded-bl-[36px] lg:w-5/6 lg:justify-self-end order-1 lg:order-2 pt-2 lg:pt-0"
       >
         <img
           src="../assets/images/tentangKami.jpg"
           alt=""
-          class="object-cover w-full h-full transition-all duration-500 hover:scale-110"
+          class="object-cover w-full h-auto transition-all duration-500 hover:scale-105 rounded-tr-[36px] rounded-bl-[36px]"
         />
       </div>
     </div>
