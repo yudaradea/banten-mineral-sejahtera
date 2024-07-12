@@ -50,8 +50,8 @@ import Title from './Title.vue';
                 Hingga saat ini Banten Mineral Sejahtera telah menjalin kerja
                 sama dengan berbagai pihak, baik pemerintah maupun
                 non-pemerintahan, dan meyakini bahwa peluang bisnis di bidang
-                penyediaan bahan baku cukup baik
-                berkelanjutandanberjangkapanjang.
+                penyediaan bahan baku cukup baik, berkelanjutan dan berjangka
+                panjang.
               </p>
               <p class="text-[13px] leading-relaxed text-justify pt-2">
                 Hal ini di sebabkan oleh terus meningkatnya kebutuhan akan bahan
