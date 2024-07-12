@@ -1,6 +1,7 @@
 <script setup>
 import Navbar from './components/Navbar.vue';
 import Hero from './components/Hero.vue';
+import TentangKami from './components/TentangKami.vue';
 </script>
 
 <template>
@@ -8,5 +9,6 @@ import Hero from './components/Hero.vue';
 
   <main>
     <Hero />
+    <TentangKami />
   </main>
 </template>

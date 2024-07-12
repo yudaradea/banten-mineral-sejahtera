@@ -3,7 +3,7 @@
     <div
       class="relative w-full flex justify-center items-center rounded-t-2xl bg-hero-image h-[500px] bg-cover bg-center bg-no-repeat lg:h-[600px]"
     >
-      <div class="w-full h-full bg-primary/40"></div>
+      <div class="w-full h-full bg-primary/40 rounded-t-2xl"></div>
       <div class="absolute flex items-center justify-center">
         <div
           class="p-6 text-center shadow-xl bg-white/50 shadow-primary/50 rounded-2xl md:p-8 lg:p-10 backdrop-blur-sm"

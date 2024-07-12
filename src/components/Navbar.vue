@@ -3,13 +3,13 @@ import { ref, onMounted } from 'vue';
 import LogoAja from '../assets/images/LogoAja.png';
 
 const isOpen = ref(false);
-const scrollPosition = ref(false);
+const scrollPosition = ref(true);
 
 const handleScroll = () => {
-  if (window.scrollY > 0) {
-    scrollPosition.value = true;
-  } else {
+  if (window.scrollY > 1) {
     scrollPosition.value = false;
+  } else {
+    scrollPosition.value = true;
   }
 };
 
@@ -20,13 +20,13 @@ onMounted(() => {
 
 <template>
   <transition
-    v-show="(scrollPosition = true)"
-    enter-active-class="duration-1000 ease-out"
-    enter-from-class="transform opacity-0"
+    v-show="scrollPosition"
+    enter-active-class="duration-500 ease-out"
+    enter-from-class="transform -translate-y-full opacity-0"
     enter-to-class="opacity-100"
-    leave-active-class="duration-1000 ease-in"
-    leave-from-class="opacity-100"
-    leave-to-class="transform opacity-0"
+    leave-active-class="duration-500 ease-in"
+    leave-from-class="opacity-100 "
+    leave-to-class="transform -translate-y-full opacity-0"
   >
     <div class="py-3 border-b bg-primary">
       <div
