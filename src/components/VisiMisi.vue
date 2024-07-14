@@ -11,7 +11,7 @@
       <div class="mt-4 space-y-6 lg:mt-6">
         <div class="flex items-start gap-4">
           <div
-            class="flex items-center justify-center p-2 mt-0.5 rounded-lg bg-primary"
+            class="flex items-center justify-center p-2 mt-[2.5px] rounded-lg bg-primary"
           >
             <p class="px-0.5">01</p>
           </div>
@@ -23,7 +23,7 @@
         </div>
         <div class="flex items-start gap-4">
           <div
-            class="flex items-center justify-center p-2 mt-0.5 rounded-lg bg-primary"
+            class="flex items-center justify-center p-2 mt-[2.5px] rounded-lg bg-primary"
           >
             <p class="">02</p>
           </div>
@@ -35,7 +35,7 @@
         </div>
         <div class="flex items-start gap-4">
           <div
-            class="flex items-center justify-center p-2 mt-0.5 rounded-lg bg-primary"
+            class="flex items-center justify-center p-2 mt-[2.5px] rounded-lg bg-primary"
           >
             <p class="">03</p>
           </div>
@@ -57,7 +57,7 @@
       <div class="mt-4 space-y-6 lg:mt-6">
         <div class="flex items-start gap-4">
           <div
-            class="flex items-center justify-center p-2 mt-0.5 rounded-lg bg-primary"
+            class="flex items-center justify-center p-2 mt-[2.5px] rounded-lg bg-primary"
           >
             <p class="px-0.5">01</p>
           </div>
@@ -69,7 +69,7 @@
         </div>
         <div class="flex items-start gap-4">
           <div
-            class="flex items-center justify-center p-2 mt-0.5 rounded-lg bg-primary"
+            class="flex items-center justify-center p-2 mt-[2.5px] rounded-lg bg-primary"
           >
             <p class="">02</p>
           </div>
@@ -81,7 +81,7 @@
         </div>
         <div class="flex items-start gap-4">
           <div
-            class="flex items-center justify-center p-2 mt-0.5 rounded-lg bg-primary"
+            class="flex items-center justify-center p-2 mt-[2.5px] rounded-lg bg-primary"
           >
             <p class="">03</p>
           </div>
