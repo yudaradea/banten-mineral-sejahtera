@@ -1,5 +1,6 @@
 <script setup>
 import Title from './Title.vue';
+import VisiMisi from './VisiMisi.vue';
 </script>
 
 <template>
@@ -34,18 +35,12 @@ import Title from './Title.vue';
           menjangkau pasar nasional.
         </p>
 
-        <div class="grid gap-6 pt-10">
+        <div class="pt-6">
+          <div class="h-2 bg-primary rounded-t-xl"></div>
           <div
-            class="flex flex-col items-center px-[10px] py-6 bg-white rounded-md shadow-sm"
+            class="flex flex-col items-center px-[12px] py-4 pb-6 bg-primary/40 rounded-b-xl shadow-sm"
           >
-            <div class="w-[60px]">
-              <img
-                src="../assets/images/rapat.png"
-                alt=""
-                class="object-cover"
-              />
-            </div>
-            <div class="w-full pt-4">
+            <div class="w-full italic">
               <p class="text-[13px] leading-relaxed text-justify">
                 Hingga saat ini Banten Mineral Sejahtera telah menjalin kerja
                 sama dengan berbagai pihak, baik pemerintah maupun
@@ -67,14 +62,16 @@ import Title from './Title.vue';
         </div>
       </div>
       <div
-        class="w-full h-[400px] md:h-[500px] lg:h-[650px] overflow-hidden rounded-tr-[36px] rounded-bl-[36px] lg:w-5/6 lg:justify-self-end order-1 lg:order-2 pt-2 lg:pt-0"
+        class="w-full h-[400px] md:h-[550px] lg:h-[650px] overflow-hidden rounded-tr-[36px] rounded-bl-[36px] lg:w-5/6 lg:justify-self-end order-1 lg:order-2 pt-2 lg:pt-0"
       >
         <img
           src="../assets/images/tentangKami.jpg"
           alt=""
-          class="object-cover w-full h-auto transition-all duration-500 hover:scale-105 rounded-tr-[36px] rounded-bl-[36px]"
+          class="object-cover w-full h-full transition-all duration-500 hover:scale-105 rounded-tr-[36px] rounded-bl-[36px]"
         />
       </div>
     </div>
+
+    <VisiMisi />
   </section>
 </template>
