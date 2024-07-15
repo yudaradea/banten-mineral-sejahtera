@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "img": "pasir-slag.jpg",
+    "title": "Pasir Slug",
+    "desc": "Pasir slag adalah bahan konstruksi yang dibuat dari hasil daur ulang terak, yaitu produk sampingan dari industri pemurnian logam, khususnya pemurnian besi. Terak adalah materi yang muncul ketika bijih besi dilebur untuk memisahkan logam besi dari kotoran dan impuritasnya."
+  },
+  {
+    "id": 2,
+    "img": "pasir-cuci-cilegon.jpg",
+    "title": "Pasir Cuci Cilegon",
+    "desc": "Pasir Cuci Cilegon merupakan pasir yang diambil langsung dari Cilegon, Banten. Pasir ini terlebih dahulu dicuci untuk dibersihkan agar menghasilkan pasir yang berkualitas. Pasir ini mengandung mineral-mineral berkualitas tinggi dan bermanfaat sehingga menjadikannya sebagai bahan baku utama berbagai aplikasi industri pada proyek konstruksi seperti konstruksi bangunan, pembangunan jalan dan lainnya."
+  },
+  {
+    "id": 3,
+    "img": "pasir-bangka.png",
+    "title": "Pasir Bangka",
+    "desc": "Pasir Bangka adalah salah satu jenis pasir yang berasal dari Pulau Bangka, Indonesia. Pasir jenis ini dikenal memiliki kualitas yang baik karena teksturnya halus, bersih, dan warnanya cerah. Pasir Bangka juga memiliki daya tahan yang baik dan mudah dibentuk sehingga sering digunakan di berbagai industri."
+  },
+  {
+    "id": 4,
+    "img": "pasir-jalupang.jpg",
+    "title": "Pasir Cuci Jalupang",
+    "desc": "Pasir Jawilan/Jalupang merupakan salah satu jenis pasir yang berasal dari provinsi Banten, selain pasir Cilegon dan pasir Rangkas. Pasir jenis ini ditambang di daerah pegunungan dan banyak mengandung silika sehingga mudah bercampur dengan semen. Pasir ini berwarna coklat dan teksturnya halus."
+  },
+  {
+    "id": 5,
+    "img": "batu-base-course.jpg",
+    "title": "Batu Base Course",
+    "desc": "Base Course atau Lapis Pondasi  Agregat adalah material granular yang terdiri dari batu pecah dengan gradasi tertentu yang akan digunakan sebagai pondasi jalan sebelum diberi perkerasan aspal / beton. Base Course juga merupakan material yang paling baik untuk pekerjaan pengurugan bangunan."
+  },
+  {
+    "id": 6,
+    "img": "batu-split-23.jpg",
+    "title": "Batu split 2-3",
+    "desc": "Batu split 2-3 adalah salah satu jenis batu pecah yang berukuran 2 hingga 3 inci. Batu split 2-3 sering digunakan untuk keperluan konstruksi seperti pembangunan jalan, paving, konstruksi bangunan, dan lain sebagainya."
+  },
+  {
+    "id": 7,
+    "img": "batu-split-e1695205119275.webp",
+    "title": "Batu split 1-2",
+    "desc": "Batu split ukuran 1-2 merupakan bahan konstruksi yang terbuat dari potongan batu alam berukuran 1 sampai 2 inci (atau sekitar 25 sampai 50 mm). Batuan split biasanya dihasilkan dengan memecahkan batu besar menggunakan mesin penghancur atau peralatan pemecah batu lainnya."
+  },
+  {
+    "id": 8,
+    "img": "slagsemen1-1.webp",
+    "title": "GGBFS Slag Semen",
+    "desc": "Semen slag atau GGBFS (Ground Granulated Blast Furnace Slag) adalah bahan alternatif yang ramah lingkungan untk membuat semen komposit yang berperforma tinggi. Bahan ini merupakan hasil dari pengolahan limbah industri baja menjadi alternatif yang populer karena proses produksinya lebih murah dibandingkan dengan semen Portland (PC)."
+  }
+]

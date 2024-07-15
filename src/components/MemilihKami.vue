@@ -1,6 +1,7 @@
 <script setup>
 import Title from './Title.vue';
 import KebijakanMutu from './KebijakanMutu.vue';
+import Partner from './Partner.vue';
 </script>
 
 <template>
@@ -96,5 +97,6 @@ import KebijakanMutu from './KebijakanMutu.vue';
     </div>
 
     <KebijakanMutu />
+    <Partner />
   </section>
 </template>

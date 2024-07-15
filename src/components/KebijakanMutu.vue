@@ -4,7 +4,7 @@
       Kebijakan Mutu
     </h2>
     <p
-      class="mt-3 text-sm leading-relaxed text-justify lg:w-[90%] lg:mx-auto lg:text-center"
+      class="mt-2 text-sm leading-relaxed text-justify lg:w-[90%] lg:mx-auto lg:text-center"
     >
       Banten Mineral Sejahtera dalam mengelola dan mengembangkan kegiatannya
       sebagai perusahaan yang bergerak di bidang Raw Material Supplier,
