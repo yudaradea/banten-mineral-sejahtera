@@ -29,7 +29,7 @@ function getImageUrl(img) {
     <Title :title="'Produk Material'" />
 
     <div
-      class="container grid grid-cols-2 gap-4 mt-6 md:mt-10 md:grid-col-3 lg:grid-cols-4"
+      class="container grid grid-cols-2 mt-8 gap-x-4 gap-y-6 md:mt-10 md:grid-col-3 lg:grid-cols-4"
     >
       <div
         v-for="product in products"
