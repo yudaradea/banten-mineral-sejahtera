@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted, defineProps, onUnmounted } from 'vue';
+import { ref, onMounted, onUnmounted } from 'vue';
 import LogoAja from '../assets/images/LogoAja.png';
 
 const isOpen = ref(false);
@@ -120,31 +120,36 @@ onUnmounted(() => {
         class="container z-30 flex flex-col pt-2 text-sm font-semibold bg-white lg:hidden"
       >
         <a
-          href=""
+          href="#hero"
+          :class="{ active: activeSection === 'hero' }"
           @click="isOpen = !isOpen"
-          class="py-3 border-b-2 active border-primary"
+          class="py-3 border-b-2 border-primary"
           >Home</a
         >
         <a
-          href=""
+          href="#tentangKami"
+          :class="{ active: activeSection === 'tentangKami' }"
           @click="isOpen = !isOpen"
           class="py-3 transition-all duration-200 border-b-2 hover:text-primary border-primary"
           >Tentang Kami</a
         >
         <a
-          href=""
+          href="#product"
+          :class="{ active: activeSection === 'product' }"
           @click="isOpen = !isOpen"
           class="py-3 transition-all duration-200 border-b-2 hover:text-primary border-primary"
           >Produk Material</a
         >
         <a
-          href=""
+          href="#dokumentasi"
+          :class="{ active: activeSection === 'dokumentasi' }"
           @click="isOpen = !isOpen"
           class="py-3 transition-all duration-200 border-b-2 hover:text-primary border-primary"
           >Galeri</a
         >
         <a
-          href=""
+          href="#contactUs"
+          :class="{ active: activeSection === 'contactUs' }"
           @click="isOpen = !isOpen"
           class="py-3 transition-all duration-200 border-b-2 hover:text-primary border-primary"
           >Hubungi Kami</a
