@@ -9,3 +9,7 @@ body.no-scroll {
 .active {
   @apply text-primary;
 }
+
+html {
+  scroll-behavior: smooth;
+}
