@@ -1,25 +1,53 @@
 <script setup>
-import Title from "./Title.vue";
+import Title from './Title.vue';
+import { ref, defineEmits, onUnmounted } from 'vue';
+
+const section = ref(null);
+const emit = defineEmits(['setActiveSection']);
+
+const handleScroll = () => {
+  if (
+    section.value &&
+    section.value.getBoundingClientRect().top < window.innerHeight / 2
+  ) {
+    emit('setActiveSection', 'contactUs');
+  }
+};
+
+window.addEventListener('scroll', handleScroll);
+
+onUnmounted(() => {
+  window.removeEventListener('scroll', handleScroll);
+});
 </script>
 
 <template>
-  <section id="contactUs" ref="contactUs" class="pt-10 pb-12 bg-primary md:pt-12 md:pb-14 lg:pt-14 lg:pb-16 border-b-2">
+  <section
+    id="contactUs"
+    ref="section"
+    class="pt-10 pb-12 border-b-2 bg-primary md:pt-12 md:pb-14 lg:pt-14 lg:pb-16"
+  >
     <div class="container grid grid-cols-1 gap-2">
       <Title :title="'Connect With Us'" />
     </div>
-    <div class="container grid lg:grid-cols-2 lg:place-items-center gap-8 mt-2 lg:mt-6">
-      <div class="mt-6 lg:mt-8 space-y-4">
+    <div
+      class="container grid gap-8 mt-2 lg:grid-cols-2 lg:place-items-center lg:mt-6"
+    >
+      <div class="mt-6 space-y-4 lg:mt-8">
         <div class="flex items-start gap-4 md:text-lg">
-          <i class="fa-solid text-2xl fa-phone"></i>
+          <i class="text-2xl fa-solid fa-phone"></i>
           <span class="font-semibold">087772333634 (Office)</span>
         </div>
         <div class="flex items-start gap-4 md:text-lg">
-          <i class="fa-solid text-2xl fa-envelope"></i>
+          <i class="text-2xl fa-solid fa-envelope"></i>
           <span class="font-semibold">cvbantenminerals@gmail.com</span>
         </div>
         <div class="flex items-start gap-4 md:text-lg">
-          <i class="fa-solid text-2xl fa-location-dot"></i>
-          <span class="font-semibold">Jl. Siliwangi KP. Jaura RT. 002 RW. 002 Rangkasbitung Timur, Kec. Rangkasbitung, Kab. Lebak, Provinsi Banten.</span>
+          <i class="text-2xl fa-solid fa-location-dot"></i>
+          <span class="font-semibold"
+            >Jl. Siliwangi KP. Jaura RT. 002 RW. 002 Rangkasbitung Timur, Kec.
+            Rangkasbitung, Kab. Lebak, Provinsi Banten.</span
+          >
         </div>
       </div>
       <div>
